@@ -5,6 +5,10 @@ mat-sidenav-container {
 
     mat-nav-list {
 
+      .menu-item {
+        margin-left: 8px;
+      }
+
       .chevron-button {
         transition: 300ms ease-in-out;
         transform: rotate(0deg);
