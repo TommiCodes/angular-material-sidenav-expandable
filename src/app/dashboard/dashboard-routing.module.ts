@@ -3,12 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { InfoComponent } from './components/info/info.component';
 import { UserComponent } from './components/user/user.component';
-import { WrapperComponent } from './components/wrapper/wrapper.component';
+import { SidenavWrapperComponent } from './components/sidenav-wrapper/sidenav-wrapper.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: WrapperComponent,
+    component: SidenavWrapperComponent,
     children: [
       {
         path: 'dashboard',

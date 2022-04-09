@@ -2,9 +2,7 @@ mat-sidenav-container {
   height: 100%;
 
   mat-sidenav {
-
     mat-nav-list {
-
       .menu-item {
         margin-left: 8px;
       }
@@ -12,9 +10,6 @@ mat-sidenav-container {
       .chevron-button {
         transition: 300ms ease-in-out;
         transform: rotate(0deg);
-        right: 0;
-        float: right;
-        position: absolute;
       }
 
       .chevron-button.rotated {
