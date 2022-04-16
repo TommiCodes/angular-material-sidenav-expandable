@@ -1,5 +1,5 @@
 <mat-sidenav-container autosize>
-  <mat-sidenav #sidenav mode="side" opened="true">
+  <mat-sidenav #sidenav mode="side" opened="isExpanded">
     <mat-nav-list>
 
       <mat-list-item (click)="isExpanded = !isExpanded">
@@ -25,7 +25,7 @@
     </mat-nav-list>
   </mat-sidenav>
 
-  <!-- Content -->
+  <!-- Content - rendered Content for the current router path into the <router-outlet>, e.g. /dashboard or /info-->
   <mat-sidenav-content>
     <mat-toolbar>
       <h4>Hello everyone</h4>

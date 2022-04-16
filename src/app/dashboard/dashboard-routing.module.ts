@@ -6,6 +6,7 @@ import { UserComponent } from './components/user/user.component';
 import { SidenavWrapperComponent } from './components/sidenav-wrapper/sidenav-wrapper.component';
 
 const routes: Routes = [
+  // Sidenavwrapper Component acts like a shell & the active child Component gets rendered into the <router-outlet>
   {
     path: '',
     component: SidenavWrapperComponent,
