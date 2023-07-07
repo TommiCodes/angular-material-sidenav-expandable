@@ -1,10 +1,25 @@
 mat-sidenav-container {
   height: 100%;
-
+  
+ .logo-container{
+  margin-left: 18px;
+  margin-top: 1%;
+ }
   mat-sidenav {
+    width: 10rem;
+   
+    
     mat-nav-list {
       .menu-item {
-        margin-left: 8px;
+        margin-left: 18px;
+       font-size: 10px;
+        display: flex;  
+        align-items: center;
+        // height: 0.2rem ;
+         color: #515a69; 
+        text-decoration: none;
+        transition: color .3s ease;
+        
       }
 
       .chevron-button {
@@ -14,6 +29,10 @@ mat-sidenav-container {
 
       .chevron-button.rotated {
         transform: rotate(180deg);
+      }
+      .mat-list-icon{
+        
+         color: #515a69; 
       }
     }
   }
