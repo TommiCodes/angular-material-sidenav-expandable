@@ -10,9 +10,10 @@ import { MatListModule } from '@angular/material/list';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { SidenavWrapperComponent } from './components/sidenav-wrapper/sidenav-wrapper.component';
 import { CustomersComponent } from './components/customers/customers.component';
+import { ProductsComponent } from './compnents/products/products.component';
 
 @NgModule({
-  declarations: [SidenavWrapperComponent, DashboardComponent, InfoComponent, UserComponent, CustomersComponent],
+  declarations: [SidenavWrapperComponent, DashboardComponent, InfoComponent, UserComponent, CustomersComponent, ProductsComponent],
   imports: [
     CommonModule,
     DashboardRoutingModule,
