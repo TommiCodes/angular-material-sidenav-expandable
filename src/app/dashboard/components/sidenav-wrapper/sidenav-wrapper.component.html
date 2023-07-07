@@ -20,48 +20,36 @@
 
       <mat-list-item [routerLink]="'user'">
         <mat-icon mat-list-icon>supervisor_account</mat-icon>
-        <span  class="menu-item">User</span>
+        <span class="menu-item">User</span>
+      </mat-list-item>
+      <mat-list-item [routerLink]="'user'">
+        <mat-icon mat-list-icon>supervisor_account</mat-icon>
+        <span class="menu-item">Products</span>
+      </mat-list-item>
+      <mat-list-item [routerLink]="'user'">
+        <mat-icon mat-list-icon>supervisor_account</mat-icon>
+        <span class="menu-item">Suppliers</span>
+      </mat-list-item>
+      <mat-list-item [routerLink]="'user'">
+        <mat-icon mat-list-icon>supervisor_account</mat-icon>
+        <span class="menu-item">OrderList</span>
+      </mat-list-item>
+      <mat-list-item [routerLink]="'user'">
+        <mat-icon mat-list-icon>search</mat-icon>
+        <span class="menu-item">search</span>
       </mat-list-item>
 
-      <mat-list-item [routerLink]="'dashboard'">
-        <mat-icon mat-list-icon>home</mat-icon>
-        <span  class="menu-item">Products</span>
-
+      <mat-list-item [routerLink]="'user'">
+        <mat-icon mat-list-icon>report</mat-icon>
+        <span class="menu-item">Report</span>
       </mat-list-item>
-      <mat-list-item [routerLink]="'dashboard'">
-        <mat-icon mat-list-icon>home</mat-icon>
-        <span  class="menu-item">Suppliers</span>
-
+      <mat-list-item [routerLink]="'user'">
+        <mat-icon mat-list-icon>settings</mat-icon>
+        <span class="menu-item">setting</span>
       </mat-list-item>
-     <mat-list-item [routerLink]="'dashboard'">
-        <mat-icon mat-list-icon>home</mat-icon>
-        <span  class="menu-item">Order List</span>
-
-      </mat-list-item>
-      <mat-list-item [routerLink]="'dashboard'">
-        <mat-icon mat-list-icon>home</mat-icon>
-        <span  class="menu-item">search</span>
-
-      </mat-list-item>
-
-      <mat-list-item [routerLink]="'dashboard'">
-        <mat-icon mat-list-icon>home</mat-icon>
-        <span  class="menu-item">Report</span>
-      </mat-list-item>
-
-      <mat-list-item [routerLink]="'dashboard'">
-        <mat-icon mat-list-icon>home</mat-icon>
-        <span  class="menu-item">Setting</span>
-      </mat-list-item>
-
-      <mat-list-item [routerLink]="'dashboard'">
-        <mat-icon mat-list-icon>home</mat-icon>
-        <span  class="menu-item">Logout</span>
-      </mat-list-item>
-
-      <mat-list-item [routerLink]="'dashboard'">
-        <mat-icon mat-list-icon>home</mat-icon>
-        <span  class="menu-item">Account</span>
+      <mat-list-item [routerLink]="'user'">
+        <mat-icon mat-list-icon>logout</mat-icon>
+        <span class="menu-item">logout</span>
       </mat-list-item>
 
     </mat-nav-list>
@@ -69,7 +57,7 @@
 
   <!-- Content - rendered Content for the current router path into the <router-outlet>, e.g. /dashboard or /info-->
   <mat-sidenav-content>
-    
+  
     <router-outlet></router-outlet>
   </mat-sidenav-content>
 
