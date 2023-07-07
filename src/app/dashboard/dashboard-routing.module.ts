@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { InfoComponent } from './components/info/info.component';
+// import { InfoComponent } from './components/info/info.component';
 import { UserComponent } from './components/user/user.component';
 import { SidenavWrapperComponent } from './components/sidenav-wrapper/sidenav-wrapper.component';
+import { CustomersComponent } from './components/customers/customers.component';
 
 const routes: Routes = [
   // Sidenavwrapper Component acts like a shell & the active child Component gets rendered into the <router-outlet>
@@ -16,8 +17,8 @@ const routes: Routes = [
         component: DashboardComponent
       },
       {
-        path: 'info',
-        component: InfoComponent
+        path: 'customers',
+        component: CustomersComponent
       },
       {
         path: 'user',
